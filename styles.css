@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background-color: yellowgreen;
+  box-align: center;
+}
+.img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.a {
+  border-radius: 50px;
+  background-color: darkcyan;
+  padding: 50px;
+  font-size: 30px;
+  font-style: bold;
+  margin: 20px;
+}
+
+.b {
+  line-height: 4;
+}
+
+.c {
+  border-color: darkcyan;
+  border-style: solid;
+  border-radius: 10%;
+  padding: 10px;
+  margin-right: 900px;
+}
