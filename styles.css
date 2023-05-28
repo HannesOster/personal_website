@@ -9,7 +9,7 @@
   width: 150px;
   height: auto;
 }
-.a {
+.button {
   border-radius: 50px;
   background-color: darkcyan;
   padding: 20px;
@@ -19,7 +19,7 @@
   font-style: none;
 }
 
-.b {
+.line-above-buttons {
   line-height: 4;
 }
 .navelement:hover {
