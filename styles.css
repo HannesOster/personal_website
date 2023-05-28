@@ -22,10 +22,25 @@
   line-height: 4;
 }
 
-.c {
-  border-color: darkcyan;
-  border-style: solid;
-  border-radius: 10%;
-  padding: 10px;
-  margin-right: 900px;
+.navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: black;
+}
+.navelement {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 20px;
+}
+.headnav {
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0;
+  right: o;
+}
+main {
+  padding-top: 100px;
 }
