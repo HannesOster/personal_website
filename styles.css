@@ -5,21 +5,26 @@
   box-align: center;
 }
 .img {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 150px;
-  height: 150px;
+  height: auto;
 }
 .a {
   border-radius: 50px;
   background-color: darkcyan;
-  padding: 50px;
+  padding: 20px;
   font-size: 30px;
   font-style: bold;
   margin: 20px;
+  font-style: none;
 }
 
 .b {
   line-height: 4;
+}
+.navelement:hover {
+  background-color: white;
+  color: black;
 }
 
 .navigation {
@@ -31,16 +36,23 @@
 .navelement {
   background-color: black;
   border: 2px solid black;
-  border-radius: 20%;
-  padding: 20px;
+  color: white;
 }
 .headnav {
   position: fixed;
   background-color: black;
   top: 0px;
   left: 0;
-  right: o;
+  right: 0;
 }
 main {
   padding-top: 100px;
+}
+.upbutton {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 10px;
+  background-color: aqua;
+  z-index: 1;
 }
