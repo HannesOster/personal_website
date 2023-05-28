@@ -3,6 +3,7 @@
   font-family: "Courier New", Courier, monospace;
   background-color: yellowgreen;
   box-align: center;
+  text-decoration: none;
 }
 .img {
   border-radius: 100%;
@@ -11,14 +12,24 @@
 }
 .button {
   border-radius: 50px;
-  background-color: darkcyan;
+  background-color: black;
+  color: white;
   padding: 20px;
   font-size: 30px;
   font-style: bold;
   margin: 20px;
   font-style: none;
+  text-decoration: none;
+  line-height: 3;
 }
-
+.button:hover {
+  color: black;
+  background-color: white;
+}
+.upbutton:hover {
+  color: black;
+  background-color: white;
+}
 .line-above-buttons {
   line-height: 4;
 }
@@ -46,13 +57,16 @@
   right: 0;
 }
 main {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .upbutton {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  border-radius: 10px;
-  background-color: aqua;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
   z-index: 1;
+  padding: 10px;
+  text-decoration: none;
 }
