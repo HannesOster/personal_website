@@ -9,6 +9,7 @@
   border-radius: 100%;
   width: 150px;
   height: auto;
+  align-self: center;
 }
 .button {
   border-radius: 50px;
@@ -21,6 +22,10 @@
   font-style: none;
   text-decoration: none;
   line-height: 3;
+}
+.main {
+  display: flex;
+  flex-direction: column;
 }
 .button:hover {
   color: black;
@@ -46,7 +51,6 @@
 }
 .navelement {
   background-color: black;
-  border: 2px solid black;
   color: white;
 }
 .headnav {
